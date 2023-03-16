@@ -5,7 +5,7 @@ from scipy.stats.stats import pearsonr
 import mysql.connector
 
 #connection to persona DB
-mydb=mysql.connector.connect( host="imc.kean.edu",
+mydb=mysql.connector.connect( host="Your host",
                              user = "Your User",
                              password= "Your Padd",
                              database= "Your DB")
